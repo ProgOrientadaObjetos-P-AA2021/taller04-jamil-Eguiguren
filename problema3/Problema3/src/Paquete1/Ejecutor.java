@@ -26,10 +26,13 @@ public class Ejecutor {
         System.out.println("\n\n");
         
         Automotor vehiculo1 = new Automotor(c, m, a, v);
-     
+        Automotor vehiculo2 = new Automotor(c, m, a, v);
+        
         vehiculo1.calcularValorMatricula();
+        vehiculo2.calcularValorMatricula();
      
         System.out.printf("%s\n", vehiculo1);
+        System.out.printf("%s\n", vehiculo2);
   }
 }
  
